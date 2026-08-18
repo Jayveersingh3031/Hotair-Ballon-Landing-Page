@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 80%;
+    width: 80%;
+    background-image: url(https://images.unsplash.com/photo-1433838552652-f9a46b332c40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGhvdCUyMGJhbGxvbiUyMHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+}
+
+#main #png >img{
+    position: absolute;
+    width: 30%;
+    left: 28%;
+    z-index: 100;
+}
+
+#text{
+    position: absolute;
+    top: 40%;
+    left: 19%;
+    color: white;
+}
+#a{
+    font-size: 50px;
+}
+
+#b{
+    position: absolute;
+    top: 44%;
+    left: 32%;
+    color: white;
+    font-size: 50px;
+    z-index: 100;
+}
+
+#left{
+    position: absolute;
+    bottom: -10%;
+    right: 33%;
+    background-image: url(https://images.unsplash.com/photo-1568751302450-3d84e00f2348?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGhvdCUyMGJhbGxvbiUyMHdhbGxwYXBlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    width: 10%;
+    height: 30%;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#centre{
+    position: absolute;
+    bottom: -10%;
+    right: 18%;
+    background-image: url(https://images.unsplash.com/photo-1643400813506-8f2a366737f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    width: 10%;
+    height: 30%;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+#right{
+    position: absolute;
+    bottom: -10%;
+    right: 5%;
+    background-image: url(https://images.unsplash.com/photo-1554388110-e8dbad26d195?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90JTIwYmFsbG9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    width: 10%;
+    height: 30%;
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.ri-play-circle-line{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+}
